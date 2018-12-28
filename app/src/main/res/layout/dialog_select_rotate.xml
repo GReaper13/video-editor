@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="15dp"
+    android:paddingBottom="25dp"
+    android:paddingTop="25dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Select degree"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="90 degree"
+        android:padding="7dp"
+        android:id="@+id/txt_90"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="180 degree"
+        android:padding="7dp"
+        android:id="@+id/txt_180"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:text="270 degree"
+        android:padding="7dp"
+        android:id="@+id/txt_270"/>
+
+
+
+</LinearLayout>
